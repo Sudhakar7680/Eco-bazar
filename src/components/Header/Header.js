@@ -35,7 +35,7 @@ export default function Header({ cartCount  }) {
         <div className='searching'>
         <div className="search-bar">
           <input  className='search' type="text" placeholder="Search" />
-          <button className='btn'>Search</button>
+          <button className='btn '>Search</button>
         </div>
         <div className="icons">
         <img src={like} alt="like-logo" />
