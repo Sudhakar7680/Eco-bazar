@@ -1,0 +1,56 @@
+/* Center the contact form container and heading */
+.contact-us-page {
+    display: flex;
+    flex-direction: column; /* Aligns items vertically */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures the div takes at least the full viewport height */
+    padding: 20px;
+    background-color: #f9f9f9; /* Optional background color */
+    
+  }
+  
+  /* Style the heading */
+  .contact-us-page h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  /* Style the form */
+  .contact-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .contact-form div {
+    margin-bottom: 15px;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .contact-form button:hover {
+    background-color: #218838;
+  }
+  

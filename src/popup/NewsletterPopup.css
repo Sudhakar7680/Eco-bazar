@@ -1,0 +1,82 @@
+.newsletter-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .newsletter-popup {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    max-width: 90%;
+    position: relative;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    border-radius: 8px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .popup-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .popup-image {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .popup-text h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .popup-text p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .email-input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .subscribe-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dont-show {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .dont-show input {
+    margin-right: 5px;
+  }
+  

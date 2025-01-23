@@ -1,0 +1,81 @@
+/* Hero Section Container */
+.hero-section {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f7f6;
+    padding: 50px 80px;
+    position: relative;
+  }
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .welcome-text {
+    color: #00c853;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-title {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .promo-text {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .highlight-text {
+    color: #ff6600;
+    font-weight: bold;
+  }
+  
+  .sub-text {
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .shop-now-btn {
+    background-color: #00c853;
+    color: #fff;
+    padding: 7px 14px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .shop-now-btn:hover {
+    background-color: #009624;
+  }
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+   .feature-icon {
+    color: #00c853;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .feature h5 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .feature p {
+    color: #777;
+    font-size: 14px;
+  }
+  .feature {
+    text-align: center;
+    padding: 10px;
+    width: 22%;
+  }

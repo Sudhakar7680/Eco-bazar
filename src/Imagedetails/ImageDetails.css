@@ -1,0 +1,25 @@
+/* Image Details Page Container */
+.image-details-container {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .details-image {
+    max-width: 70%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  .image-details-container h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .image-details-container p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+    margin-top: 20px;
+  }
+  

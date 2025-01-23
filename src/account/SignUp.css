@@ -1,0 +1,72 @@
+/* Login Form Styles */
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: rgb(191,182,195);
+    background: linear-gradient(90deg, rgba(191,182,195,1) 0%, rgba(175,233,210,0.9828723725818452) 50%, rgba(183,123,228,1) 100%);
+    background-size: cover; 
+    background-position: center;
+  }
+  
+  .login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .login-form label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .login-form .error {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .login-form p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .login-form a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .login-form a:hover {
+    text-decoration: underline;
+  }
+  

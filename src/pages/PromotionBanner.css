@@ -1,0 +1,127 @@
+.promotion-banner {
+    
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .promotion-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 20px;
+  }
+  
+  .promo-card {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    background: #fff; 
+  }
+  
+  .promo-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .promo-image-container {
+    position: relative;
+  }
+  
+  .promo-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 3px solid #ddd; 
+  }
+  
+  .promo-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .promo-subtitle {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  
+  .promo-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .promo-timer,
+  .promo-discount,
+  .promo-price {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .promo-button {
+    background:white;
+    color: #12e72b;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 18px;
+    cursor: pointer;
+  }
+  
+  .promo-button:hover {
+    background: #180bce;
+    color: white;
+  }
+  
+
+  @media (max-width: 768px) {
+    .promotion-grid {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  
+    .promo-title {
+      font-size: 18px;
+    }
+  
+    .promo-subtitle,
+    .promo-timer,
+    .promo-discount,
+    .promo-price {
+      font-size: 12px;
+    }
+  
+    .promo-button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .promo-title {
+      font-size: 16px;
+    }
+  
+    .promo-subtitle,
+    .promo-timer,
+    .promo-discount,
+    .promo-price {
+      font-size: 10px;
+    }
+  
+    .promo-button {
+      padding: 6px 12px;
+      font-size: 12px;
+    }
+  }
+  
